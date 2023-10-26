@@ -15,7 +15,7 @@ Fråga användaren hur mycket pengar den har i fickan.
 Svara ungefär så här.
 
 Rikard du är rik.'''
-
-input,("hej vad heter du?")
-print,( namn, )
-input ("namn, ")
+namn = input("hej vad heter du?")
+print(namn," är ett fint namn.")
+mat = input("vilken mat gillar du?")
+print(mat, "smakar bra")
